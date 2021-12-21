@@ -23,10 +23,10 @@ if salary >= 5500:
         if remainingmoneyhigh >= 1000:
             print(f'{name}! You are lucky to made it so far. You have {remainingmoneyhigh} TL')
             answer2 = input(f'Would you like to spend some time outside to have fun {name}: Yes or No: ').lower()
-            if answer2 == 'Yes':
+            if answer2 == 'Yes'.lower():
                 print(f'Dear {name}, you have some money you need to be carefully spend it. Hope you will survive. Thanks for playing :)')
                 exit
-            elif answer2 == 'No':
+            elif answer2 == 'No'.lower():
                 print('Congratulations! You managed to survive for another month. Deep depression awaits you :)')
             else:
                 print('Not a valid option. You lose.')
